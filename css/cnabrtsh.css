@@ -1,0 +1,191 @@
+#background2{
+  background-image:url(../images/background2.jpg);
+  background-attachment:fixed;
+  background-size:100% 100%;
+
+  width:100%;
+  height:100%;
+  position:relative;
+  right:6px;
+  bottom:9.5%;
+
+
+
+}
+
+  #toptitle{
+    position:absolute;
+    top:8.5%;
+  }
+
+  h3{
+  font-family:'Gloria Hallelujah',cursive;
+  font-size:2em;
+  color:white;
+  font-weight:bold;
+  position:relative;
+  left:30%;
+  top:18%;
+ width:60%;
+
+
+}
+
+tr{
+  position:absolute;
+  top:50%;
+}
+
+
+  #students{
+    color:black;
+    opacity:0.5;
+  }
+
+h5{
+  position:relative;
+  top:14%;
+  left:40%;
+  font-size:6em;
+  font-family:'Gloria Hallelujah',cursive;
+  color:#DCDCDC;
+  cursor:pointer;
+}
+
+.britain{
+  color:#CCFF66;
+  position:absolute;
+  left:39.1%;
+  top:15.2%;
+  display:none;
+  cursor:pointer;
+}
+
+
+
+  .china{
+    position:absolute;
+      top:18.5%;
+      left:43%;
+      color:white;
+      cursor:pointer;
+
+  }
+
+  .sub{
+    display:none;
+    color:yellow;
+    font-size:6.3em;
+    left:43.4%;
+
+  }
+
+
+
+
+
+
+  h4{
+  font-family:'Gloria Hallelujah',cursive;
+  font-weight:bold;
+  font-size:2em;
+  position:relative;
+  left:30%;
+  top:7%;
+  width:40%;
+
+  color:#DCDCDC;
+  }
+
+  #bg2text{
+    height:5%;
+    width:60%;
+    position:relative;
+    top:11%;
+    left:25%;
+    font-size:1.5em;
+    font-family:'Ranga',cursive;
+    display:none;
+    color:white;
+
+  }
+
+  #bg2text2{
+    height:5%;
+    width:52%;
+    position:relative;
+    top:16%;
+    left:30%;
+    font-size:1.8em;
+    font-family:'Ranga',cursive;
+    text-align:left;
+    color:white;
+    display:none;
+
+
+
+  }
+
+  @media screen and (max-width:1300px){
+  #bg2text{
+    font-size:0.71em;
+    width:90%;
+    position:absolute;
+    top:16%;
+    left:5%;
+    color:white;
+    display:none;
+  }
+
+  #bg2text2{
+  font-size:0.92em;
+  width:90%;
+  position:absolute;
+    left:6%;
+  top:13%;
+  padding:1% 1% 10px 0.5%;
+  }
+
+  .china{
+    font-size:2.8em;
+    position:absolute;
+    left:30%;
+    top:14%;
+  }
+
+  .countryb{
+    font-size:2.8em;
+    position:absolute;
+    left:29%;
+    top:12%;
+  }
+
+  hr{
+    display:none;
+  }
+
+  h2{
+  font-size:1.2em;
+
+  }
+
+  h3{
+    font-size:0.9em;
+    position:relative;
+    top:15%;
+  }
+
+  h4{
+    font-size:0.9em;
+    position:absolute;
+    top:10.9%;
+    left:27%;
+    color:white;
+    font-family:'Ranga',cursive;
+  }
+
+  .btn5{
+  display:none;
+  }
+
+  }

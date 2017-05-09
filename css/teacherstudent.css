@@ -1,0 +1,263 @@
+#background3{
+
+  background-image:url(../images/background3.jpg);
+  background-attachment:fixed;
+  background-size:100% 100%;
+
+
+
+  opacity:0.9;
+
+  width:100%;
+  height:100%;
+  position:relative;
+  right:6px;
+  bottom:8.5%;
+
+
+}
+
+
+  #privatetext{
+    display:none;
+    position:absolute;
+    top:10%;
+    font-size:1.5em;
+    width:110%;
+
+
+
+  }
+
+  #contacttext{
+    display:none;
+      position:absolute;
+      top:13%;
+      left:8%;
+      color:white;
+      font-size:1.2em;
+      width:110%;
+  }
+
+  #obtainingexptext{
+    display:none;
+    position:absolute;
+    top:6%;
+    width:110%;
+    font-size:1.2em;
+  }
+
+  #questionnairetext{
+    display:none;
+    position:absolute;
+    top:22%;
+    left:41%;
+    width:34%;
+  }
+
+  #connectiontext{
+    display:none;
+    position:absolute;
+    top:15%;
+    left:42%;
+    width:31%;
+    font-size:1.6em;
+  }
+
+
+
+  #bg3text{
+    height:70%;
+    width:33%;
+
+    border-radius:10px;
+    color:#FAEBD7;
+    position:relative;
+    top:10.5%;
+    left:1%;
+
+
+    font-family:'Ranga',cursive;
+    font-size:1.7em;
+
+    padding:0.1% 1% 30px 30px ;
+
+
+  }
+
+  #students{
+  position:absolute;
+  top:1.7%;
+  left:3%;
+  font-size:3.0em;
+  width:120%;
+  font-family:'Gloria Hallelujah',cursive;
+  }
+
+
+  .studenttext{
+  font-size:1.8em;
+  color:white;
+  cursor:pointer;
+  margin-top:230px;
+  width:110%;
+
+
+}
+
+
+  #bg3text2{
+    height:70%;
+    width:33%;
+
+
+    color:white;
+
+    font-family:'Ranga',cursive;
+    font-size:1.5em;
+
+
+
+
+  }
+
+  #teachers{
+
+
+    font-size:2em;
+    position:absolute;
+     top:12%;
+     left:41%;
+     font-size:4em;
+     width:100%;
+     font-family:'Gloria Hallelujah',cursive;
+     color:white;
+  }
+
+  .teachertext{
+       font-size:3.9em;
+
+       color:white;
+       position:absolute;
+       font-family:'Ranga',cursive;
+       left:50%;
+       margin-top:740px;
+       cursor:pointer;
+     }
+
+     #analysistext{
+       display:none;
+       position:absolute;
+       left:42%;
+       top:19%;
+       width:32%;
+     }
+
+
+
+
+
+
+
+  #bg3text3{
+    height:50%;
+    width:20%;
+    /*background:#FF7F00;*/
+    border-radius:10px;
+    font-size:2em;
+     position:absolute;
+     top:16%;
+     right:2%;
+    color:white;
+
+    font-family:'Ranga',cursive;
+
+
+
+
+  }
+
+  #line{
+
+      position:absolute;
+      top:15%;
+      left:40%;
+      width:5px; height:500px; background-color:white;
+    }
+  #lines{
+    width:5px; height:500px; background-color:black;
+    position:absolute;
+    top:15%;
+    left:75%;
+  }
+
+
+ #midtitle{
+   position:absolute;
+   top:12.5%;
+   font-size:2em;
+   margin-left:72%;
+   color:black;
+   font-family:'Gloria Hallelujah',cursive;
+ }
+
+
+@media screen and (max-width:1300px){
+
+  #students{
+    font-size:1.7em;
+    position:absolute;
+    top:8.0%;
+  }
+
+  #teachers{
+    font-size:1.4em;
+    position:absolute;
+    top:9.8%;
+    left:57%;
+  }
+  .teachertext{
+    font-size:1.7em;
+    position:absolute;
+    padding:0.001px 0.1% 0.1% 0.1% ;
+    left:70%;
+  }
+
+  #line,#lines{
+    display:none;
+  }
+
+  #bg3text{
+    font-size:0.8em;
+    height:50%;
+    padding-left:20px;
+    position:absolute;
+    top:10%;
+
+
+  }
+   #bg3text2{
+   font-size:0.8em;
+   position:absolute;
+   top:10.5%;
+   width:42%;
+   padding:0.001px 0.1% 0.1% 0.1% ;
+
+   }
+
+   #bg3text3{
+     font-size:0.8em;
+     position:absolute;
+     top:10.1%;
+     left:5%;
+     width:50%;
+   }
+   #midtitle{
+     font-size:0.8em;
+     position:absolute;
+     width:100%;
+     top:9.5%;
+     right:-10%;
+   }
+
+}
