@@ -1,7 +1,7 @@
 
 
 
-
+/*1.Animation to enter*/
 $(document).ready(function (){
 
 
@@ -37,7 +37,7 @@ $(document).ready(function (){
 
 
 
-/*change the text*/
+/*2.change the text*/
 
 function moveOn(){
 
@@ -64,14 +64,14 @@ function shiftOut(){
 
 
 
-/* design a gallery */
+/* 3.design a gallery */
 
 var curimg=document.getElementById("imPur");
 var preimgs=[];
 var t;
 var counter=0;
 var images=["./images/3lock.jpg","./images/lock4.jpg","./images/lock5.jpg"];
-var galleryon=true;
+
 
 
 function prepare(){
@@ -83,9 +83,9 @@ function prepare(){
     preimgs[i].src = images[i];
   }
 
-  if(galleryon===true){
+  
     startGallery();
-   }
+   
 
 }
 
