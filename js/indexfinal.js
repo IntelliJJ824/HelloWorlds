@@ -6,7 +6,7 @@ function appearStart(){
 
 
 function disappearStart(){
-   document.getElementById("top3").innerHTML=' Consequence:"YOUR WORLD" ';
+   document.getElementById("top3").innerHTML=' "YOUR WORLD" ';
 
 
 }
